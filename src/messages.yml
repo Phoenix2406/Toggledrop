@@ -1,0 +1,37 @@
+#######################################################
+#                                                     #
+#  Toggledrop Plugin Messages Configuration Section   #
+#                                                     #
+#######################################################
+
+# You can change all messages on giftaway system in here.
+# Note: The messages must be valid format in below.
+
+# NOTE: YOU CAN CHANGE MESSAGE BUT CAN'T CHANGE ANY CONFIGURATION SECTION
+#       ON LANGUAGE FILE UNLESS YOU DON'T KNOW WHAT ARE YOU DOING!
+
+messages:
+
+  # Message on toggle enable
+  toggleEnable:
+    # on Self toggle enable
+    selfToggle: '&aToggledrop sucessfully enable!'
+    # on other Player toggle enable
+    playerToggle: '&aToggledrop sucessfully enable for &b'
+
+  # Message on toggle disable
+  toggleDisable:
+    # on Self toggle disable
+    selfToggle: '&cToggledrop sucessfully disable!'
+    # on other Player toggle disable
+    playerToggle: '&cToggledrop sucessfully disable for &b'
+
+  cantDrop: '&cYou can''t drop item while toggledrop enable!'
+  disableWorld: '&cSorry! This world has been disable for toggledrop.'
+
+#######################################################
+#                                                     #
+#     IMPORTANT INFORMATION!! PLEASE RESTART YOUR     #
+#      SERVER TO TAKE EFFECT CHANGE ON MESSAGES       #
+#                                                     #
+#######################################################

@@ -1,0 +1,20 @@
+#######################################################
+#                                                     #
+#    Toggledrop Plugin Main Configuration Section     #
+#                                                     #
+#######################################################
+
+# Change toggledrop prefix here.
+# Support: Color Code, Color Hex, and Unique Code
+# Note: If you want to use hex color, don't forget to
+#       give "&" symbol before hex code!
+prefix: "&7[&#00E6FF&lToggledrop&7] "
+
+# You can list here what world you want to disable
+# on toggledrop plugin for work.
+disableWorld:
+  - "yourworldhere"
+  - "anotherworldhere"
+
+# DON'T TOUCH THIS SECTION UNLESS YOU DON'T KNOW WHAT ARE YOU DOING!
+version: 1.2
