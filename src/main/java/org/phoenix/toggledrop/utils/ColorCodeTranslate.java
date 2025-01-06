@@ -1,4 +1,4 @@
-package org.atha06.toggledrop.utils;
+package org.phoenix.toggledrop.utils;
 
 import net.md_5.bungee.api.ChatColor;
 
