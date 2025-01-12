@@ -5,16 +5,26 @@
 #######################################################
 
 # Change toggledrop prefix here.
-# Support: Color Code, Color Hex, and Unique Code
+# Support: Color Code, Hex Color, and Unique Code
 # Note: If you want to use hex color, don't forget to
 #       give "&" symbol before hex code!
-prefix: "&7[&#00E6FF&lToggledrop&7] "
+prefix: "&7[&#00E6FF&lToggledrop&7]"
 
-# You can list here what world you want to disable
-# on toggledrop plugin for work.
+# You can list here items you want to exclude
+# or include from being dropped.
+item-filter:
+  # Available Type: EXCLUDE and INCLUDE
+  type: EXCLUDE
+  # List here for an items you want to filter.
+  # Set empty for disable items filter.
+  # Ex: GRASS_BLOCK, BRICK_BLOCK, etc.
+  list: []
+
+# You can list here world you want to disable
+# from items being drop by player.
 disableWorld:
   - "yourworldhere"
   - "anotherworldhere"
 
 # DON'T TOUCH THIS SECTION UNLESS YOU DON'T KNOW WHAT ARE YOU DOING!
-version: 1.2
+version: 2.3
