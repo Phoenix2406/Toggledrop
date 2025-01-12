@@ -4,14 +4,13 @@
 #                                                     #
 #######################################################
 
-# You can change all messages on giftaway system in here.
+# You can change all messages on Toggledrop system in here.
 # Note: The messages must be valid format in below.
 
 # NOTE: YOU CAN CHANGE MESSAGE BUT CAN'T CHANGE ANY CONFIGURATION SECTION
 #       ON LANGUAGE FILE UNLESS YOU DON'T KNOW WHAT ARE YOU DOING!
 
 messages:
-
   # Message on toggle enable
   toggleEnable:
     # on Self toggle enable
@@ -27,6 +26,7 @@ messages:
     playerToggle: '&cToggledrop sucessfully disable for &b'
 
   cantDrop: '&cYou can''t drop item while toggledrop enable!'
+  itemFiltered: '&cSorry! This item is disable from being dropped.'
   disableWorld: '&cSorry! This world has been disable for toggledrop.'
 
 #######################################################
