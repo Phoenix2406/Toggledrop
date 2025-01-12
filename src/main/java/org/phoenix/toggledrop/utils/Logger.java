@@ -1,7 +1,7 @@
 /**
  * LICENSE
- * PlayerProfile for RPG System
- * Copyright (C) 2022 Phoenix
+ * Toggledrop for prevent items being dropped
+ * Copyright (C) 2025 Phoenix
  * ----------
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
