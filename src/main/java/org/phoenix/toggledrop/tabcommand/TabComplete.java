@@ -1,6 +1,25 @@
+/**
+ * LICENSE
+ * Toggledrop for prevent items being dropped
+ * Copyright (C) 2025 Phoenix
+ * ----------
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * <p>
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ * <p>
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ * END
+ */
+
 package org.phoenix.toggledrop.tabcommand;
 
-import org.phoenix.toggledrop.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -8,21 +27,15 @@ import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
 import org.bukkit.util.StringUtil;
 
+import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class TabComplete implements TabCompleter {
 
-    private Main plugin;
-
-    // Register the plugin variable to get variable in Main Class
-    public TabComplete(Main plugin) {
-        this.plugin = plugin;
-    }
-
     @Override
-    public List<String> onTabComplete(CommandSender sender, Command cmd, String label, String[] args) {
+    public List<String> onTabComplete(@Nonnull CommandSender sender, @Nonnull Command cmd, @Nonnull String label, String[] args) {
         List<String> completions = new ArrayList<>();
         List<String> commands = new ArrayList<>();
 
