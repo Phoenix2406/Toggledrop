@@ -22,6 +22,7 @@ item-filter:
 
 # You can list here world you want to disable
 # from items being drop by player.
+# Set empty for enable worlds for all.
 disableWorld:
   - "yourworldhere"
   - "anotherworldhere"
