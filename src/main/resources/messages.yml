@@ -27,7 +27,6 @@ messages:
 
   cantDrop: '&cYou can''t drop item while toggledrop enable!'
   itemFiltered: '&cSorry! This item is disable from being dropped.'
-  disableWorld: '&cSorry! This world has been disable for toggledrop.'
 
 #######################################################
 #                                                     #
